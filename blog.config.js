@@ -1,9 +1,9 @@
 const BLOG = {
-  title: 'Akiano',
+  title: 'Jonas Chou',
   author: 'Jonas Chou',
-  email: 'contact@akiano.com',
-  link: 'https://xxxxx.vercel.app',
-  description: 'This gonna be an awesome website.',
+  email: 'contact@jonaschou.com',
+  link: 'https://www.jonaschou.com',
+  description: '分享数据产品领域新知',
   lang: 'en-US',
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
@@ -15,23 +15,23 @@ const BLOG = {
   sortByDate: false,
   showAbout: true, // WIP
   showArchive: true, // WIP
-  autoCollapsedNavBar: false, // the automatically collapsed navigation bar
-  socialLink: 'https://twitter.com/craigaryhart',
+  autoCollapsedNavBar: true, // the automatically collapsed navigation bar
+  socialLink: 'https://twitter.com/jonascchou',
   seo: {
-    keywords: ['数据产品', '数据管理', '数据产品经理'],
-    googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
+    keywords: ['数据产品经理', '数据产品', '数据管理', '数据产品管理'],
+    googleSiteVerification: 'gJoxWENjsx2kEOFcBMqxfQhjhCXZRetCcpYHS1AqLeA' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
   analytics: {
-    provider: '', // Currently we support Google Analytics and Ackee, please fill with 'ga' or 'ackee', leave it empty to disable it.
+    provider: 'ga', // Currently we support Google Analytics and Ackee, please fill with 'ga' or 'ackee', leave it empty to disable it.
     ackeeConfig: {
       tracker: '', // e.g 'https://ackee.craigary.net/tracker.js'
       dataAckeeServer: '', // e.g https://ackee.craigary.net , don't end with a slash
       domainId: '' // e.g '0e2257a8-54d4-4847-91a1-0311ea48cc7b'
     },
     gaConfig: {
-      measurementId: '' // e.g: G-XXXXXXXXXX
+      measurementId: 'G-DSQ9T73480' // e.g: G-XXXXXXXXXX
     }
   },
   comment: {
