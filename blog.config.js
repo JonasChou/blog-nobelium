@@ -15,7 +15,7 @@ const BLOG = {
   sortByDate: false,
   showAbout: true, // WIP
   showArchive: true, // WIP
-  autoCollapsedNavBar: true, // the automatically collapsed navigation bar
+  autoCollapsedNavBar: false, // the automatically collapsed navigation bar
   socialLink: 'https://twitter.com/jonascchou',
   seo: {
     keywords: ['数据产品经理', '数据产品', '数据管理', '数据产品管理'],
