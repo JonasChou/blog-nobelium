@@ -80,7 +80,7 @@ const Layout = ({
           </div>
         )}
       </article>
-      <div className="flex justify-between font-medium text-gray-500 dark:text-gray-400">
+      <div className="flex my-8 justify-between font-medium text-gray-500 dark:text-gray-400">
         <a>
           <button
             onClick={() => router.push(BLOG.path || '/')}
