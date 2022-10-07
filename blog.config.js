@@ -17,7 +17,7 @@ const BLOG = {
   showArchive: true, // WIP
   autoCollapsedNavBar: false, // the automatically collapsed navigation bar
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
-  socialLink: 'https://twitter.com/jonascchou',
+  socialLink: '',
   seo: {
     keywords: ['数据产品经理', '数据产品', '数据管理', '数据产品管理'],
     googleSiteVerification: 'gJoxWENjsx2kEOFcBMqxfQhjhCXZRetCcpYHS1AqLeA' // Remove the value or replace it with your own google site verification code
