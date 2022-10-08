@@ -7,7 +7,7 @@ const BLOG = {
   lang: 'zh-CN',
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
-  lightBackground: '#c04851', // use hex value, don't forget '#' e.g #fffefc #ffffff
+  lightBackground: '#eef7f2', // use hex value, don't forget '#' e.g #fffefc #ffffff #fbeee2淡米粉 #fbf2e3粉白 #eef7f2月白
   darkBackground: '#18181B', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
   since: 2020, // if leave this  empty, current year will be used.
