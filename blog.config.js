@@ -4,14 +4,14 @@ const BLOG = {
   email: 'contact@jonaschou.com',
   link: 'https://www.jonaschou.com',
   description: '分享数据产品领域新知',
-  lang: 'en-US',
+  lang: 'zh-CN',
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#ffffff', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#18181B', // use hex value, don't forget '#'
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
   since: 2020, // if leave this  empty, current year will be used.
-  postsPerPage: 7,
+  postsPerPage: 20,
   sortByDate: false,
   showAbout: true, // WIP
   showArchive: true, // WIP
